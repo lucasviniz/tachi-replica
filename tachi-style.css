@@ -1,0 +1,265 @@
+body{
+    margin:0px
+
+}
+h1{
+    font-size: 45px;
+    margin-top: 220px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: bold;
+    color:#2c3e50;
+
+}
+
+img{
+    margin-top: -2px;
+    margin-left: 20px;
+    max-width: 36px;
+    float: left;
+    padding-top: 15px;
+}
+
+
+li{
+    margin-left: 20px;
+    margin-top: -60px;
+    display: inline-block;
+    font-family: 'Open Sans';
+    color:#2c3e50;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+#logo2{
+    font-size: 14px;
+    margin-right: 1050px;
+    font-family: 'Open Sans';
+    font-style: bold;
+    color:#2c3e50;
+}
+
+.menu{
+    margin:10px;
+    text-align: right;
+}
+
+ul{
+    border: 5px;
+}
+hr{
+    margin-bottom: 0px;
+    margin-top: -15px;
+    opacity: 20%;
+}
+
+#img2{
+    max-width: 120px;
+    margin-top: -145px;
+    margin-left: 895px;
+}
+header{
+    min-width: 100%;    
+    top: 0px;
+    position: fixed;
+    background-color: #ffffffff;
+}
+h4{
+    margin-top: -20px;
+    font-weight: normal;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Open Sans';
+    color: #2c3e50;
+}
+
+a:link{
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #2c3e50;
+}
+a:hover{
+    border-bottom: 2px solid #2e84bf;
+}
+
+#busca{
+    width: 170px;
+    height:31px;
+    background-color: #fff;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 4px;
+    text-indent: 30px;
+}
+
+.botao{
+    text-align: center;
+}
+
+#buscador{
+    position: relative;
+    margin-top: -10px;
+    margin-right: -28px;
+    max-width: 20px;
+}
+
+#busca:focus{
+    border: 1px solid rgb(20, 148, 223);
+    outline: none;
+}
+
+#download, #guide{
+    text-indent: 25px;
+    font-size: 18px;
+    height: 55px;
+    width: 160px;
+    font-family: 'Open Sans';
+    color:white;
+    border: 2px #2e84bf;
+    border-radius: 5px;
+}
+
+#download{
+    background-color: #2e84bf;
+    border-bottom: #2e84bf;
+    
+}
+
+#guide{
+    background-color: #476582;
+}
+
+#download:hover{
+    background-color: #2f8bc9;
+}
+
+#guide:hover{
+    background-color: #4e6e8d;
+}
+
+#download:active,
+#guide:active{
+    box-shadow: 0 0 0px 1px #fff, 0 0 0 2px #9e9e9e;
+}
+
+#imgDown{
+    max-width: 22px;
+    position: absolute;
+    margin-left: 808px;
+    margin-top: 2px;
+    filter: invert(100%);
+}
+
+#imgGuide{
+    max-width: 20px;
+    margin-top: 2px;
+    position: absolute;
+    margin-left: 970px;
+    filter: invert(100%);
+}
+
+#hr2{
+    margin-top: 40px;
+}
+
+#lightlibrary{
+    opacity: 0%;
+    position: absolute;
+    max-width: 300px;
+    animation-name: transition;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;  
+}
+
+#darklibrary{
+    max-width: 300px;
+}
+
+@keyframes transition{
+    from{opacity: 0%;}
+    to{opacity: 100%;}
+}
+
+#lightreader{
+    opacity: 0%;
+    position: absolute;
+    max-width: 300px;
+    animation-name: transition;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;  
+}
+
+#darkreader{
+    max-width: 300px;
+}
+
+#lighttracking{
+    opacity: 0%;
+    position: absolute;
+    max-width: 300px;
+    animation-name: transition;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;  
+}
+
+#darktracking{
+    max-width: 300px;
+}
+
+.homeimg{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.home{
+    padding: 20px;
+}
+
+.hometext{
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;    
+    font-family: 'Open Sans', sans-serif;
+    color: #2c3e50;
+    justify-content: center;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.descricao{
+    font-size: 15px;
+}
+#text1{
+    max-width: 300px;
+    margin-right: 35px;
+    
+}
+
+#text2{
+    max-width: 300px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+#text3{
+    max-width: 300px;
+    
+}
+
+
+#text1, #text2, #text3{
+    display: grid;
+    text-align: center;
+
+}
+
